@@ -14,7 +14,8 @@
     "cors": "^2.8.5",
     "dotenv-flow": "^4.0.1",
     "express": "^4.18.2",
-    "sequelize": "^6.35.1"
+    "sequelize": "^6.35.1",
+    "tedious": "^16.6.1"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
