@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require("path");
 
 const options = {
-	dialect: "mssql",
+	dialect: "postgres",
 	define: {
 		timestamps: false,
 	},

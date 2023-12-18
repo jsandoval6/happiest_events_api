@@ -6,6 +6,8 @@ module.exports = (sequelize, DataTypes) => {
 			autoIncrement: true,
 			field: 'id'
 		},
+		imageUrl: DataTypes.STRING,
+		description: DataTypes.STRING,
 		title: DataTypes.STRING,
 		organizer: DataTypes.STRING,
 		type: DataTypes.STRING,
@@ -20,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
 		display_start_date: DataTypes.BOOLEAN,
 		display_end_date: DataTypes.BOOLEAN,
 	}, {
-		timestamps: false,
+		timestamps: true,
 	});
 	
 	events.associate = function(models){
