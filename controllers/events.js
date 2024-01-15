@@ -18,5 +18,10 @@ module.exports = {
 		} catch (err) {
 			console.log(err);
 		}
+	},
+	
+	async create(req, res, next) {
+		console.log(req.body);
+		res.sendStatus(200);
 	}
 }
