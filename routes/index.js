@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const events = require('./events');
+const eventsRouter = require('./events');
 
-router.use('/api/events', events);
+router.use('/api/events', eventsRouter);
 
 module.exports = router;
